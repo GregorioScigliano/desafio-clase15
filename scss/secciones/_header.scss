@@ -1,0 +1,16 @@
+.header{
+    background-color: $bg-hr;
+    &__banner{
+        width: 100vw;
+    }
+    &__titulo{
+        @extend %titulo;
+    }
+    &__ul{
+        @extend %navbar;
+        &--li{
+            text-decoration: none;
+            color: $bg-mn;
+        }
+    }
+}

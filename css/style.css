@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.header__titulo {
+  font-family: "Bungee Shade", cursive;
+  font-size: 80px;
+  color: #000000;
+  font-weight: bolder;
+  text-align: center; }
+
+.header__ul {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none; }
+
+.header {
+  background-color: #ffa500; }
+  .header__banner {
+    width: 100vw; }
+  .header__ul--li {
+    text-decoration: none;
+    color: #000000; }
+
+.main {
+  background-color: #000000; }
+  .main__encabezado1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: #E63B2E;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px; }
+  .main__encabezado2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: #00ffff;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px; }
+  .main__encabezado3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: #ffa500;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px; }
+  .main__contenedor1--txt {
+    background-color: #000000;
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff; }
+  .main__contenedor2--txt {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff; }
+  .main__contenedor3--txt {
+    background-color: #000000;
+    padding: 10px;
+    text-align: right;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff; }
+
+.footer {
+  background-color: #00ffff; }
+  .footer__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 15px; }
+    .footer__ul--li {
+      height: 50px;
+      width: 50px; }

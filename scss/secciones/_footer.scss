@@ -1,0 +1,13 @@
+.footer{
+    background-color: $bg-fr;
+    &__ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 15px;
+        &--li{
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

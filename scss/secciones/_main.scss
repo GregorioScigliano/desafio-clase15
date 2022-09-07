@@ -1,0 +1,21 @@
+.main{
+    background-color: $bg-mn;
+    &__encabezado1{
+        @include main-encabezado ($c-sec)
+    }
+    &__encabezado2{
+        @include main-encabezado ($bg-fr)
+    }
+    &__encabezado3{
+        @include main-encabezado ($bg-hr)
+    }
+    &__contenedor1--txt{
+        @include main-txt ($bg-mn, 10px, left);
+    }
+    &__contenedor2--txt{
+        @include main-txt ($bg-mn, 10px, center);
+    }
+    &__contenedor3--txt{
+        @include main-txt ($bg-mn, 10px, right);
+    }
+}

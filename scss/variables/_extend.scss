@@ -1,0 +1,35 @@
+%titulo{
+    font-family: $titulos;
+    font-size: 80px;
+    color:$bg-mn;
+    font-weight: bolder;
+    text-align: center;
+}
+%navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    font-family: $txt;
+    font-weight: bolder;
+    font-size: 30px;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+@mixin main-encabezado ($e-color){
+    font-family: $txt;
+    font-size: 35px;
+    color:$e-color;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+}
+@mixin main-txt ($bg-c, $pad, $txt-ubi){
+    background-color:$bg-c ;
+    padding:$pad ;
+    text-align: $txt-ubi;
+    font-size: 25px;
+    font-family: $txt;
+    color: $c-txt;
+}
+
